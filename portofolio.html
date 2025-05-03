@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      scroll-behavior: smooth;
+    }
+
+    header {
+      background-color: #BB3E00;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #F7AD45;
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      padding: 1rem;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    nav a {
+      color: black;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      min-height: 100vh;
+      padding: 4rem 2rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .about { background-color: #F7AD45; color: black; }
+    .projects { background-color: #A2B9A7; color: black; }
+    .experience { background-color: #657C6A; color: white; }
+    .skills { background-color: #BB3E00; color: white; }
+    .contact { background-color: #657C6A; color: white; }
+    .footer { background-color: #A2B9A7; color: black; padding: 1rem; text-align: center; }
+
+    .btn {
+      padding: 0.5rem 1rem;
+      background-color: #BB3E00;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #8a2d00;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>sfgbsbf</h1>
+    <p>Student | Future Visionary</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#experience">Experience</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+    <a href="#footer">Footer</a>
+  </nav>
+
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>I am a student with a passion for learning and working. My vision is to become a future leader who contributes to innovation and progress.</p>
+  </section>
+
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li>School Assignment Showcase</li>
+      <li>Wedding Organizer Project</li>
+    </ul>
+  </section>
+
+  <section id="experience" class="experience">
+    <h2>Experience</h2>
+    <p>Ran a student-led wedding organizer project, managed event planning and coordination with real clients.</p>
+  </section>
+
+  <section id="skills" class="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>Teamwork and Collaboration</li>
+      <li>Project Management</li>
+      <li>Creative Problem Solving</li>
+    </ul>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <p>Get in touch via:</p>
+    <a class="btn" href="mailto:youremail@example.com">Email</a>
+    <a class="btn" href="https://instagram.com/yourprofile" target="_blank">Instagram</a>
+  </section>
+
+  <footer id="footer" class="footer">
+    <p>&copy; 2025 sfgbsbf. All rights reserved.</p>
+  </footer>
+</body>
+
+</html>
